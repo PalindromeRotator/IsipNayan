@@ -42,4 +42,12 @@ public class Q2VideoSwitching : MonoBehaviour
     {
         SceneManager.LoadScene("#9VideoPlayingQ2");
     }
+    public void Back()
+    {
+        SceneManager.LoadScene("VideoQuarter");
+    }
+    public void Home()
+    {
+        SceneManager.LoadScene("Categories");
+    }
 }

@@ -2270,7 +2270,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1756950217}
         m_TargetAssemblyTypeName: SwitchingScreens, Assembly-CSharp
-        m_MethodName: Quarter1ToPlay
+        m_MethodName: Game
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

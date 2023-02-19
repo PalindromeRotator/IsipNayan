@@ -206,9 +206,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SwitchingScreens, Assembly-CSharp
-        m_MethodName: VideoQuarter
+      - m_Target: {fileID: 1756950223}
+        m_TargetAssemblyTypeName: Q4VideoSwitching, Assembly-CSharp
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -766,8 +766,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SwitchingScreens, Assembly-CSharp
+      - m_Target: {fileID: 1756950223}
+        m_TargetAssemblyTypeName: Q4VideoSwitching, Assembly-CSharp
         m_MethodName: Home
         m_Mode: 1
         m_Arguments:
