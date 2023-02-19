@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System.IO;
+using System;
 
 public class ScoreScript : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class ScoreScript : MonoBehaviour
     {
         string newhighscore = ScoreObject.score.ToString();
         string[] lines = File.ReadAllLines(filePath); // Read all lines into memory
-        if (lines.Length >= 4) // Check if there are at least 4 lines
+        if (Convert.ToInt64(lines[3]) < Convert.ToInt64(newhighscore))
         {
             lines[3] = newhighscore; // Update the 4th line (index 3)
             File.WriteAllLines(filePath, lines); // Write the modified content back to the file

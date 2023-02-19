@@ -22,10 +22,10 @@ public class AnswerScript : MonoBehaviour
     {
         if (Parameters.questionDetails.rightAnswer == Parameters.answer)
         {
-            ScoreObject.score += 10;
+            ScoreObject.score += 1;
         }
         ScoreObject.counter++;
-        if (ScoreObject.counter <= 10)
+        if (ScoreObject.counter < 10)
             SceneManager.LoadScene("QuestionTab");
         else
             SceneManager.LoadScene("ScoreTab");
