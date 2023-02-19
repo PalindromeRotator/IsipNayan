@@ -373,6 +373,101 @@ public class QuestionScript : MonoBehaviour
             UpdateTimerText();
 
         }
+        switch (answer[randomIndex].qnumber)
+        {
+            case "1":
+                SceneManager.LoadScene("q1");
+                break;
+            case "2":
+                SceneManager.LoadScene("q2");
+                break;
+            case "3":
+                SceneManager.LoadScene("q3");
+                break;
+            case "4":
+                SceneManager.LoadScene("q4");
+                break;
+            case "5":
+                SceneManager.LoadScene("q5");
+                break;
+            case "6":
+                SceneManager.LoadScene("q6");
+                break;
+            case "7":
+                SceneManager.LoadScene("q7");
+                break;
+            case "8":
+                SceneManager.LoadScene("q8");
+                break;
+            case "9":
+                SceneManager.LoadScene("q9");
+                break;
+            case "10":
+                SceneManager.LoadScene("q10");
+                break;
+            case "11":
+                SceneManager.LoadScene("q11");
+                break;
+            case "12":
+                SceneManager.LoadScene("q12");
+                break;
+            case "13":
+                SceneManager.LoadScene("q13");
+                break;
+            case "14":
+                SceneManager.LoadScene("q14");
+                break;
+            case "15":
+                SceneManager.LoadScene("q15");
+                break;
+            case "16":
+                SceneManager.LoadScene("q16");
+                break;
+            case "17":
+                SceneManager.LoadScene("q17");
+                break;
+            case "18":
+                SceneManager.LoadScene("q18");
+                break;
+            case "19":
+                SceneManager.LoadScene("q19");
+                break;
+            case "20":
+                SceneManager.LoadScene("q20");
+                break;
+            case "21":
+                SceneManager.LoadScene("q21");
+                break;
+            case "22":
+                SceneManager.LoadScene("q22");
+                break;
+            case "23":
+                SceneManager.LoadScene("q23");
+                break;
+            case "24":
+                SceneManager.LoadScene("q24");
+                break;
+            case "25":
+                SceneManager.LoadScene("q25");
+                break;
+            case "26":
+                SceneManager.LoadScene("q26");
+                break;
+            case "27":
+                SceneManager.LoadScene("q27");
+                break;
+            case "28":
+                SceneManager.LoadScene("q28");
+                break;
+            case "29":
+                SceneManager.LoadScene("q29");
+                break;
+            case "30":
+                SceneManager.LoadScene("q30");
+                break;
+            default:
+                break;
+        }
 
     }
     void UpdateTimerText()

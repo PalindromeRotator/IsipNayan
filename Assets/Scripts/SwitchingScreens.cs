@@ -364,6 +364,42 @@ public class SwitchingScreens : MonoBehaviour
     {
         SceneManager.LoadScene("#9VideoPlayingQ3");
     }
+    public void VideoPlaying1_4()
+    {
+        SceneManager.LoadScene("#1VideoPlayingQ4");
+    }
+    public void VideoPlaying2_4()
+    {
+        SceneManager.LoadScene("#2VideoPlayingQ4");
+    }
+    public void VideoPlaying3_4()
+    {
+        SceneManager.LoadScene("#3VideoPlayingQ4");
+    }
+    public void VideoPlaying4_4()
+    {
+        SceneManager.LoadScene("#4VideoPlayingQ4");
+    }
+    public void VideoPlaying5_4()
+    {
+        SceneManager.LoadScene("#5VideoPlayingQ4");
+    }
+    public void VideoPlaying6_4()
+    {
+        SceneManager.LoadScene("#6VideoPlayingQ4");
+    }
+    public void VideoPlaying7_4()
+    {
+        SceneManager.LoadScene("#7VideoPlayingQ4");
+    }
+    public void VideoPlaying8_4()
+    {
+        SceneManager.LoadScene("#8VideoPlayingQ4");
+    }
+    public void VideoPlaying9_4()
+    {
+        SceneManager.LoadScene("#9VideoPlayingQ4");
+    }
     //--------------------------------------------------------------------------------------//
 
 }
