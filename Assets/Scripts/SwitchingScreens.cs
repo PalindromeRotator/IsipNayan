@@ -253,6 +253,80 @@ public class SwitchingScreens : MonoBehaviour
     {
         SceneManager.LoadScene("ScoreTab");
     }
+
+    public void VideoPlaying1()
+    {
+        SceneManager.LoadScene("#1VideoPlaying");
+    }
+    public void VideoPlaying2()
+    {
+        SceneManager.LoadScene("#2VideoPlaying");
+    }
+    public void VideoPlaying3()
+    {
+        SceneManager.LoadScene("#3VideoPlaying");
+    }
+    public void VideoPlaying4()
+    {
+        SceneManager.LoadScene("#4VideoPlaying");
+    }
+    public void VideoPlaying5()
+    {
+        SceneManager.LoadScene("#5VideoPlaying");
+    }
+    public void VideoPlaying6()
+    {
+        SceneManager.LoadScene("#6VideoPlaying");
+    }
+    public void VideoPlaying7()
+    {
+        SceneManager.LoadScene("#7VideoPlaying");
+    }
+    public void VideoPlaying8()
+    {
+        SceneManager.LoadScene("#8VideoPlaying");
+    }
+    public void VideoPlaying9()
+    {
+        SceneManager.LoadScene("#9VideoPlaying");
+    }
+
+    public void VideoPlaying1_2()
+    {
+        SceneManager.LoadScene("#1VideoPlayingQ2");
+    }
+    public void VideoPlaying2_2()
+    {
+        SceneManager.LoadScene("#2VideoPlayingQ2");
+    }
+    public void VideoPlaying3_2()
+    {
+        SceneManager.LoadScene("#3VideoPlayingQ2");
+    }
+    public void VideoPlaying4_2()
+    {
+        SceneManager.LoadScene("#4VideoPlayingQ2");
+    }
+    public void VideoPlaying5_2()
+    {
+        SceneManager.LoadScene("#5VideoPlayingQ2");
+    }
+    public void VideoPlaying6_2()
+    {
+        SceneManager.LoadScene("#6VideoPlayingQ2");
+    }
+    public void VideoPlaying7_2()
+    {
+        SceneManager.LoadScene("#7VideoPlayingQ2");
+    }
+    public void VideoPlaying8_2()
+    {
+        SceneManager.LoadScene("#8VideoPlayingQ2");
+    }
+    public void VideoPlaying9_2()
+    {
+        SceneManager.LoadScene("#9VideoPlayingQ2");
+    }
     //--------------------------------------------------------------------------------------//
 
 }

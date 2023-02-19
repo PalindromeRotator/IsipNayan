@@ -426,7 +426,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1756950217}
         m_TargetAssemblyTypeName: SwitchingScreens, Assembly-CSharp
-        m_MethodName: Lessons
+        m_MethodName: VideoPlaying6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -850,7 +850,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1756950217}
         m_TargetAssemblyTypeName: SwitchingScreens, Assembly-CSharp
-        m_MethodName: Lessons
+        m_MethodName: VideoPlaying4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
