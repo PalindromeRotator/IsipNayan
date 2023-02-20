@@ -373,6 +373,9 @@ public class QuestionScript : MonoBehaviour
             UpdateTimerText();
 
         }
+
+        Parameters.questionDetails = answer[randomIndex];
+        Parameters.answer = " ";
         switch (answer[randomIndex].qnumber)
         {
             case "1":
