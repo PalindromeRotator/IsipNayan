@@ -400,6 +400,44 @@ public class SwitchingScreens : MonoBehaviour
     {
         SceneManager.LoadScene("#9VideoPlayingQ4");
     }
+
+    // q2 game
+    public void PlaySceneQ2()
+    {
+        SceneManager.LoadScene("PlaySceneQ2");
+    }
+    public void QuestionTabQ2()
+    {
+        SceneManager.LoadScene("QuestionTabQ2");
+    }
+    public void ScoreTabQ2()
+    {
+        SceneManager.LoadScene("ScoreTabQ2");
+    }
+    public void PlaySceneQ3()
+    {
+        SceneManager.LoadScene("PlaySceneQ3");
+    }
+    public void QuestionTabQ3()
+    {
+        SceneManager.LoadScene("QuestionTabQ3");
+    }
+    public void ScoreTabQ3()
+    {
+        SceneManager.LoadScene("ScoreTabQ3");
+    }
+    public void PlaySceneQ4()
+    {
+        SceneManager.LoadScene("PlaySceneQ4");
+    }
+    public void QuestionTabQ4()
+    {
+        SceneManager.LoadScene("QuestionTabQ4");
+    }
+    public void ScoreTabQ4()
+    {
+        SceneManager.LoadScene("ScoreTabQ4");
+    }
     //--------------------------------------------------------------------------------------//
 
 }

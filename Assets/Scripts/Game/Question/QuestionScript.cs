@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
-
 public class AnswerObject
 {
     public string qnumber { get; set; }
@@ -36,7 +35,7 @@ public class QuestionScript : MonoBehaviour
 
     public Slider slider;
 
-    public float timeLeft = 30f;
+    public float timeLeft = 40f;
 
     AnswerObject[] answer = new AnswerObject[]{
         new AnswerObject {
@@ -311,7 +310,7 @@ public class QuestionScript : MonoBehaviour
     };
     string[] questions = new string[] {
         "The digit 87, 150 is divisible by which of the following number?",
-        "Is it 71 is PRIME and not COMPOSITE?",
+        "Is 71 PRIME and not COMPOSITE?",
         "Which of the following is divisible by 8",
         "4 is a factor of?",
         "What is the value of the expression 100 – (14 + 37) ÷ 3 + 14 x 2",
@@ -366,7 +365,7 @@ public class QuestionScript : MonoBehaviour
     }
     IEnumerator Countdown(int randomIndex, AnswerObject[] answer)
     {
-        while (timeLeft >= 30)
+        while (timeLeft > 0)
         {
             yield return new WaitForSeconds(1f);
             timeLeft -= 1f;
@@ -475,8 +474,9 @@ public class QuestionScript : MonoBehaviour
     }
     void UpdateTimerText()
     {
-        int minutes = Mathf.FloorToInt(timeLeft / 30f);
-        int seconds = Mathf.FloorToInt(timeLeft % 30f);
+        int minutes = Mathf.FloorToInt(timeLeft / 40f);
+        int seconds = Mathf.FloorToInt(timeLeft % 40f);
+        Debug.Log(seconds);
         slider.value = seconds;
     }
     void clickAnswer(string textValue, int randomIndex, AnswerObject[] answer)
