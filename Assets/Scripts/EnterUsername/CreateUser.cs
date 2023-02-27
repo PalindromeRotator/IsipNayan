@@ -35,6 +35,7 @@ public class CreateUser : MonoBehaviour
         s.WriteLine(defaultDate);
         s.WriteLine("Please Change it.");
         s.WriteLine("0");
+        s.WriteLine("G1");
         s.Close();
         f.Close();
         SceneManager.LoadScene("Categories");
