@@ -293,10 +293,10 @@ public class QuestionScriptQ2 : MonoBehaviour
         new AnswerObject {
             qnumber = "29",
             choice1 = "A. >",
-            choice2 = "B. <",
-            choice3 = "C. =",
+            choice2 = "B. =",
+            choice3 = "C. <",
             choice4 = "D. ≤",
-            rightAnswer = "B. <",
+            rightAnswer = "C. <",
             explanation = "",
         },
         new AnswerObject {
